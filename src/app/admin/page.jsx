@@ -7,6 +7,8 @@ import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, PointElement
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement);
 
+
+
 const Admin = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const [selectedIcon, setSelectedIcon] = useState("spa");
