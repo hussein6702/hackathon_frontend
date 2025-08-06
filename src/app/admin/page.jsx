@@ -16,6 +16,8 @@ const Admin = () => {
   const [delegateIndex, setDelegateIndex] = useState(null);
   const [showPositive, setShowPositive] = useState(true);
 
+
+
   const sentimentData = {
     spa: { positive: 70, negative: 30 },
     room_service: { positive: 85, negative: 15 },
