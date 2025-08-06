@@ -7,6 +7,8 @@ export const metadata = {
   description: "Manage your hotel",
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
